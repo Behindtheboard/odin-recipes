@@ -6,12 +6,11 @@ body {
     font-family: Chalkduster, fantasy;
     color: #595656;
     font-size: 24px;
+    margin: 0px;
 }
 
-ul {
-    color: #1F6521;
-}
 /* Homepage links */
+
 .links {
     width: auto;
     text-align: center;
@@ -31,14 +30,32 @@ a:hover {
     font-size: 30px;
 }    
 
+/* Recipe pages */
+
 h1, h2, h3, h4 {
     text-align: center;
     margin: 10px auto;
 }
 
+.ingredients {
+    background-color: #f8f6f3;
+    padding: 1px 0px;
+}    
+
+.ingredients h3, .ingredients h4 {
+    text-decoration: underline;
+    margin: auto;
+}
+
+ul li {
+    color: #1F6521;
+    border-bottom: 2px solid #4056A1;
+}
+
 .container img {   
     max-height: auto;
     max-width: 40%;
+    margin: 25px auto;
     margin-left: auto;
     margin-right: auto;
     display: block;
